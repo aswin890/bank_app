@@ -1,0 +1,19 @@
+data sharing
+
+html btw ts
+view     component
+
+method for sharing data is called data binding
+
+data binding
+------------
+
+1. one way binding
+    1.1) component to view
+     1.1.1 -string interpollation  symbol is {{}}
+     1.1.2 property binding  [property_name]="value"
+    
+    1.2 view to component
+        1.2.1  event binding        (event name)="methodname()"
+        1.2.2  $event binding       (event name)="methodname($event)"   //value access cheyyanengi ithu use cheyyanam
+        1.2.3  event binding using template reference variable  #variable_name
